@@ -34,7 +34,7 @@ public class UserRestController {
 public ResponseEntity<User> updateUser(@PathVariable Long id,
                                        @RequestBody Map<String, Object> payload) {
     String name = (String) payload.get("name");
-    int age = (int) payload.get("age");
+    int age = ((Number) payload.get("age")).intValue();
 
     User updatedUser = userService.updateUser(id, name, age);
     return ResponseEntity.ok(updatedUser);
