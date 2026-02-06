@@ -20,8 +20,7 @@ This backend is hosted on Render Free Plan.
 
 📊 Project Presentation
 
-👉 Download Project PPT
-(Add your PPT link here)
+👉 https://github.com/habit-mangement-org/habit-backend/blob/main/Habit-Manager-Frontend.pptx
 
 🛠️ Tech Stack
 
